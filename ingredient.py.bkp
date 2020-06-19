@@ -1,0 +1,12 @@
+import enum
+
+class Ingredient(enum.Enum):
+
+    hot_milk = "hot_milk"
+    hot_water = "hot_water"
+    ginger_syrup = "ginger_syrup"
+    sugar_syrup = "sugar_syrup"
+    elaichi_suyrup = "elaichi_syrup"
+    tea_leaves_syrup = "tea_leaves_syrup"
+    green_mixture = "green_mixture"
+
