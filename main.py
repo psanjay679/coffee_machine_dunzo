@@ -4,7 +4,7 @@ from src.beverage import Beverage
 
 def test():
 
-    json_data = json.loads(open('test.json', 'r').read())
+    json_data = json.loads(open('test/test.json', 'r').read())
 
     machine = json_data['machine']
     outlets = machine['outlets']
