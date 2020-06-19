@@ -1,6 +1,6 @@
 import json
-from CoffeeMachine import CoffeeMachine
-from beverage import Beverage
+from src.coffee_machine import CoffeeMachine
+from src.beverage import Beverage
 
 def test():
 
